@@ -196,3 +196,14 @@ a:link.nav-item-anchor {
     justify-content: space-between;
     width: 430px;
 }
+
+.promo-pic-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.promo-pic {
+    flex: 0 1 360px;
+    max-width: 360px;
+}
