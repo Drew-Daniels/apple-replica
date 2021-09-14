@@ -76,8 +76,15 @@ input {
 .nav-item {
     display: inline-flex;
     font-size: 12px;
-    vertical-align: middle;
     height: 100%;
+    align-items: center;
+    margin-top: 0;
+}
+
+.nav-item-anchor {
+    height: 100%;
+    display: inline-block;
+    color: white;
 }
 
 footer {
@@ -102,6 +109,9 @@ footer > * {
     background-image: url("../images/pictures/your_verse_hero.jpg");
     height: 538px;
     background-position: bottom 0 right 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-text {
@@ -111,6 +121,10 @@ footer > * {
 a:link {
     text-decoration: none;
     color: var(--bright-blue);
+}
+
+a:link.nav-item-anchor {
+    color: white;
 }
 
 .icon {
