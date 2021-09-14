@@ -49,10 +49,74 @@ table {
 /* Eric Meyer CSS Reset */
 /* My Code */
 
+:root {
+    --bright-blue: #0088cc;
+}
+
 body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 10px;
+    color: #6e6e6e;
+}
+
+nav {
+    background-image: linear-gradient(#626262, #777777);
+    width: 980px;
+    height: 36px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+.nav-list {
+    height: 100%;
+}
+
+.nav-item {
+    display: inline-flex;
+    font-size: 12px;
+    vertical-align: middle;
+    height: 100%;
+}
+
+footer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+footer > * {
+    text-align: center;
+}
+
+.content {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-container {
+    background-image: url("../images/pictures/your_verse_hero.jpg");
+    height: 538px;
+    background-position: bottom 0 right 0;
 }
 
 .hero-text {
     font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--bright-blue);
+}
+
+.icon {
+    width: 24px;
+}
+
+.pipe-delimited {
+    
 }
