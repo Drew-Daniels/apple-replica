@@ -129,7 +129,7 @@ h2 {
     font-size: 24px;
 }
 
-h3 {
+.video-link {
     font-size: 20px;
 }
 
@@ -153,9 +153,19 @@ footer > * {
     justify-content: space-around;
 }
 
+.hero-text-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
 .hero-text {
     font-family: 'Roboto', sans-serif;
     color: white;
+    text-align: center;
 }
 
 a:link {
@@ -169,6 +179,13 @@ a:link.nav-item-anchor {
 
 .icon {
     width: 18px;
+}
+
+.video-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 430px;
 }
 
 .pipe-delimited {
