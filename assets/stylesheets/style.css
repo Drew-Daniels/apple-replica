@@ -126,7 +126,6 @@ button > img {
 }
 
 footer {
-    background-color: red;
     display: flex;
     flex-direction: row;
     align-content: center;
