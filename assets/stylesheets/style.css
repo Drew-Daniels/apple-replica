@@ -130,7 +130,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 25px;
 }
 
