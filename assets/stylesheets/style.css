@@ -63,6 +63,8 @@ nav {
     background-image: linear-gradient(#626262, #777777);
     width: 980px;
     height: 36px;
+    display: flex;
+    justify-content: center;
 }
 
 input {
@@ -79,12 +81,14 @@ input {
     height: 100%;
     align-items: center;
     margin-top: 0;
+    padding: 0 25px;
 }
 
 .nav-item-anchor {
     height: 100%;
     display: inline-block;
     color: white;
+    vertical-align: middle;
 }
 
 footer {
@@ -96,11 +100,15 @@ footer {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 48px;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 footer > * {
