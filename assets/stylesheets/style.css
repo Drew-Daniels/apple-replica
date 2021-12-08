@@ -101,6 +101,11 @@ input {
     padding: 0 10px;
 }
 
+#terms-and-conditions-nav {
+    display: inline-block;
+    margin-top: 10px;
+}
+
 a:link.primary-nav-item-anchor {
     color: white;
 }
