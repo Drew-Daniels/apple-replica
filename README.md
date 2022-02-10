@@ -1,4 +1,2 @@
-#### This is a project designed to replicate an old version of the Apple homepage
-
-## Todo:
-1. Bring the 'Terms of Use | Privacy Policy' div on the same line as the copyright line
+# Replica of an old version of the Apple homepage for The Odin Project
+![Alt text](./apple-homepage-replica-screenshot.png?raw=true "Apple Homepage Replica Screenshot")
